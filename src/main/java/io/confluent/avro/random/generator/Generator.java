@@ -1331,7 +1331,7 @@ public class Generator {
   private String generateRandomString(int length) {
     byte[] bytes = new byte[length];
     for (int i = 0; i < length; i++) {
-      bytes[i] = (byte) random.nextInt(128);
+      bytes[i] = (byte) (97 + random.nextInt(25));
     }
     return new String(bytes, StandardCharsets.US_ASCII);
   }

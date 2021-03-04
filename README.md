@@ -1,5 +1,10 @@
 # Arg: Avro Random Generator
 
+__NOTE: This is a fork of `confluentinc/avro-random-generator` that was made to
+tailor a very specific use case within the OVO acquisitions team. We do not
+actively maintain this project and accept no liability for use of it. We
+strongly suggest that you use the confluentinc version over this one.__
+
 __NOTE: Building is required to run the program.__
 
 ## What does it do?
